@@ -1,8 +1,8 @@
-package tutorial;
+package javaTask.introductionJava;
 
 import java.util.Scanner;
 
-public class Test2 {
+public class SoutText {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();

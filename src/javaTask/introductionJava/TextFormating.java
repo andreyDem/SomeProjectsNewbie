@@ -1,8 +1,8 @@
-package tutorial;
+package javaTask.introductionJava;
 
 import java.util.Scanner;
 
-public class Test3 {
+public class TextFormating {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("================================");

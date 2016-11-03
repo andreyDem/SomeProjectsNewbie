@@ -1,8 +1,8 @@
-package stringExp;
+package javaTask.stringExp;
 
 import java.util.Scanner;
 
-public class Test1 {
+public class StringIntro {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String A=sc.next();

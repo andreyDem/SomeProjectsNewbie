@@ -1,8 +1,8 @@
-package tutorial;
+package javaTask.introductionJava;
 
 import java.util.Scanner;
 
-public class Test4 {
+public class LoopsPrint {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = 0;
