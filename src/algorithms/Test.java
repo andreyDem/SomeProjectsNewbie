@@ -1,4 +1,4 @@
-package tutorials;
+package algorithms;
 
 
 public class Test {
