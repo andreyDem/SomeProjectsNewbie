@@ -24,9 +24,11 @@ public class LetsReview {
         char[] chars = string.toCharArray();
         String s1 ="";
         String s2 ="";
-        for (int i = 0; i < chars.length-1; i+=2) {
-            s1 = s1 + chars[i];
-            s2 = s2 + chars[i+1];
+        for (int i = 0; i < chars.length; i++) {
+            if (i%2==0)
+                s1 = s1 + chars[i];
+            else
+                s2 = s2 + chars[i];
         }
         System.out.println(s1 + " " + s2);
     }
