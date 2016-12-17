@@ -14,8 +14,9 @@ public class Task4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter char from A-Z");
+        char sought = (char)('A' + new Random().nextInt(26));
         while (true){
-            char sought = (char)('A' + new Random().nextInt(26));
+//            System.out.println(sought);
             boolean ask = false;
             String str = scanner.nextLine();
             if (str.charAt(0)==sought){
